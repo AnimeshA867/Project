@@ -1031,6 +1031,7 @@ function keyPressed(e) {
   } else if (e.key == "/") {
     display1("/");
   } else if (e.key == "*") {
+    display1("*");
     multiply();
   } else if (e.key == "+") {
     display1("+");
@@ -1060,3 +1061,8 @@ function keyPressed(e) {
   //     answer();
   // }
 }
+// document.addEventListener("keydown", function (event) {
+//   if (event.key === "Enter") {
+//     solve();
+//   }
+// });
